@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Agenda - Inicio</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="../index.">
+    <link rel="stylesheet" href="../Principal.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <div class=navbar>
+        <nav>
+            <ul>
+                <li><a class=active>Contactos</a></li>
+                <li><a href="./Usuario/Usuario.html">Usuario</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="Content">
+        <h1>Contactos</h1>
+        <div class=aButton>
+            <form action="./EditarAgenda/AgregarUsuario.html">
+                <input class=sucess type="submit" value="Agregar"/>
+            </form>
+        </div>
+        <table style="width:100%">
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Telefono</th>
+                <th>Correo</th>
+                <th>Acciones</th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Alejandro</td>
+                <td>Lopez</td>
+                <td>50219343</td>
+                <td>alejandro@gmail.com</td>
+                <td class="text-center">
+                    <form action="./EditarAgenda/EditarUsuario.html">
+                        <input class=warning type="submit" value="Editar"/>
+                    </form>
+                    <form action="./EditarAgenda/DetallesUsuario.html">
+                        <input class=details type="submit" value="Detalles"/>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Emilio</td>
+                <td>Ramirez</td>
+                <td>50219023</td>
+                <td>emilio@gmail.com</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Pedro</td>
+                <td>Gomez</td>
+                <td>50212423</td>
+                <td>pedro@gmail.com</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>Joseph</td>
+                <td>Smith</td>
+                <td>50235023</td>
+                <td>joseph@gmail.com</td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>Carlos</td>
+                <td>Perez</td>
+                <td>50210923</td>
+                <td>Carlos@gmail.com</td>
+            </tr>
+          </table>    
+    </div>
+    <footer class="footer">
+        <p id=Author>Author: Ramirez López, Emilio Alejandro<br>
+        <a href="eramirez-2017503@kinal.edu.gt">eramirez-2017503@kinal.edu.gt</a></p>
+    </footer>
+</body>
+</html>
